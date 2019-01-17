@@ -1,0 +1,81 @@
+
+add_action('admin_head', 'my_custom_css');
+function my_custom_css() {
+	echo '
+	<style>
+		.rAds {
+			display: none !important;
+			opacity: 0 !important;
+		} 
+	</style>
+	<script>
+		function home_header12() {
+			if(jQuery(".rAds").length){
+				jQuery(".rAds").remove();
+				console.log("removing banner");
+			}
+		}
+		jQuery(document).ready(function(e) {
+			if(jQuery("#redux-header").length){
+				setTimeout(home_header12, 3000);
+			}
+		});
+	</script>
+	';
+	
+	/*global $user_level;
+	if ($user_level == '10' ) {
+	   echo '<link href="'.get_bloginfo( 'template_url' ).'/css/meta-box.css" rel="stylesheet">';
+   }*/
+}
+
+
+
+
+######################################################################################
+//ADD custom logo on wordpress login page
+######################################################################################
+add_action( 'login_enqueue_scripts', 'my_login_logo' );
+function my_login_logo() {
+	global $fdata;
+	//print_r($fdata['login-logo']);
+	$logo_url = ( isset($fdata['login-logo']) ? $fdata['login-logo']['url'] : get_bloginfo('template_url').'/images/logo_05.jpg' );
+	$logo_height = ( isset($fdata['login-logo']) ? $fdata['login-logo']['height'] : '111' );
+	?>
+    <style type="text/css">
+		body.login {
+			background-color:#01216C;
+		}
+        body.login div#login h1 a {
+            background-image: url(<?php echo $logo_url ?>);
+            padding: 0px;
+			margin:0 auto 25px;
+			width:auto;
+			height:<?=$logo_height?>px;
+			background-position:center center;
+			background-size:contain;
+        }
+    </style>
+<?php }
+
+
+function my_login_logo_url() {
+    return home_url();
+}
+add_filter( 'login_headerurl', 'my_login_logo_url' );
+
+function my_login_logo_url_title() {
+    return get_bloginfo('name');//'Your Site Name and Info';
+}
+add_filter( 'login_headertitle', 'my_login_logo_url_title' );
+
+
+
+
+######################################################################################
+//Redux framework for theme options
+######################################################################################
+
+if ( file_exists( dirname( __FILE__ ) . '/inc/admin-folder/admin/admin-init.php' ) ) {
+	require_once( dirname( __FILE__ ) . '/inc/admin-folder/admin/admin-init.php' );
+}

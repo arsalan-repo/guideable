@@ -1,0 +1,187 @@
+.card-thumb-img {
+    text-align: center;
+}
+@media screen and (max-width: 1025px) and (min-width: 1023px) {
+.nav.main-navigation ul {
+    width: 90%!important;
+}
+.nav.main-navigation ul li a {
+    font-size: 13px!important;
+}
+
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+.learn-press-profile-dashboard .card .card-thumb-img {
+    width: 100%;
+}
+.logged-in .cover_image, .profile-page .cover_image {
+    background-size: cover !important;
+}
+
+.logged-in #learn-press-profile-nav ul.nav.justify-content-center, .profile-page #learn-press-profile-nav ul.nav.justify-content-center {
+    padding-left: 0;
+    width: 100%;
+
+}
+.logged-in .cover_image, .profile-page .cover_image {
+    padding: 170px 0;
+}
+.logged-in .lp-user-profile .profile-name, .profile-page .lp-user-profile .profile-name {
+    bottom: 153px;
+}
+.logged-in #wallet-amount, .profile-page #wallet-amount {
+    float: none;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+.logged-in #learn-press-profile-header .lp-profile-avatar, .profile-page #learn-press-profile-header .lp-profile-avatar {
+    top: -25em;
+}
+.nav.main-navigation ul li#menu-item-377 {
+    display: inline-block;
+}
+.single-menu-item a {
+    font-size: 10px!important;
+}
+.nav.main-navigation ul li a {
+    font-size: 10px!important;
+}
+.nav.main-navigation ul li a {
+    padding: 9px 5px;
+}
+.login-btn a { 
+    padding: 9px 15px !important;
+}
+.nav.main-navigation ul {
+    width: 90%;
+}
+
+
+}
+
+
+
+
+@media screen and (max-width: 767px) and (min-width: 300px) {
+.logged-in #learn-press-profile-nav ul.nav.justify-content-center li a.nav-link, .profile-page #learn-press-profile-nav ul.nav.justify-content-center li a.nav-link {
+    font-size: 11px !important;
+}
+.logged-in #learn-press-profile-nav ul.nav.justify-content-center, .profile-page #learn-press-profile-nav ul.nav.justify-content-center {
+    float: none;
+}
+#learn-press-profile-header {
+    position: unset;
+}
+.logged-in #learn-press-profile-nav ul.nav.justify-content-center, .profile-page #learn-press-profile-nav ul.nav.justify-content-center {
+    padding-left: 0;
+}
+.logo {
+    text-align: center;
+}
+.nav-footer {
+    text-align: left;
+}
+.logged-in .cover_image, .profile-page .cover_image {
+    background-size: cover!important;
+    padding: 160px 0;
+    margin-bottom: 0px;
+}
+#learn-press-profile-header .lp-profile-avatar {
+    position: inherit;
+    bottom: unset;
+    left: unset;
+    top: unset;
+}
+.lp-profile-avatar {
+    text-align: center;
+}
+.lp-user-profile .profile-name {
+    position: unset;
+}
+.logged-in .lp-user-profile .profile-name, .profile-page .lp-user-profile .profile-name {
+    text-align: center;
+    padding-left: 0;
+    bottom: unset;
+}
+.logged-in .social-links, .profile-page .social-links {
+    position: unset;
+    bottom: unset;
+    right: unset;
+}
+
+.logged-in .instructor-header, .profile-page .instructor-header {
+    position: unset;
+    top: unset;
+    left: unset;
+}
+.logged-in .instructor-header li, .profile-page .instructor-header li {
+   font-size: 10px!important;
+}
+.instructor-header li {
+    padding: 0 5px 0 0;
+}
+
+.instructor-header ul {
+    padding: 0px;
+    margin: 10px 0px 0px;
+}
+.learn-press-profile-dashboard .card .card-thumb-img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+}
+.logged-in #learn-press-profile-header .lp-profile-avatar img, .profile-page #learn-press-profile-header .lp-profile-avatar img {
+    width: 130px;
+    height: 130px;
+}
+#learn-press-profile-header {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+}
+.page-id-8 article#post-8 {
+    padding: 0px 0 30px;
+}
+.logged-in #learn-press-profile-nav, .profile-page #learn-press-profile-nav {
+    padding: 5px 0;
+    margin-bottom: 0px;
+}
+#profile-mobile-menu {
+    display: none!important;
+}
+
+.nav-link {
+    display: block;
+    padding: 0px 7px;
+}
+#learn-press-profile-nav {
+    float: left;
+}
+.logged-in #learn-press-profile-nav ul.nav.justify-content-center li:before, .profile-page #learn-press-profile-nav ul.nav.justify-content-center li:before {
+	display: none!important;
+}
+#learn-press-profile-nav {
+    height: auto;
+}
+.logged-in #wallet-amount, .profile-page #wallet-amount {
+    display: block;
+    text-align: center;
+    float: none;
+}
+.categories-blog {
+    display: none;
+}
+.regis-choose {
+    margin-left: 0;
+    position: unset;
+    margin-bottom: 20px;
+}
+
+
+
+
+}
+
