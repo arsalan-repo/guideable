@@ -634,13 +634,13 @@ function remove_instructor_menu_toolbar()
     $role = array_keys($role);
     if(in_array('lp_teacher',$role)){
         echo "<style>";
-        echo "#wpadminbar,#adminmenumain, #wpfooter{visibility: hidden;}";
+        echo "#wpadminbar,#adminmenumain, #wpfooter{display: none;}";
         echo "#wpcontent, #wpfooter{margin-left : 0!important}";
         echo "#wpcontent{height : 0!important}";
         echo "</style>";
     }
 }
-add_action('admin_menu','remove_instructor_menu_toolbar', 10);
+add_action('admin_head','remove_instructor_menu_toolbar', 10);
 
 
 

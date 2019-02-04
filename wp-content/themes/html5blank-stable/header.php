@@ -33,8 +33,8 @@
                     scrollTop: $(".packages-section").offset().top
                 }, 1000)
             });
-            $('.owl-carousel').owlCarousel({
-                loop:true,
+            $('#pop-courses .owl-carousel').owlCarousel({
+                loop:false,
                 margin:10,
                 nav:true,
                 autoplay:true,
@@ -71,6 +71,12 @@
                     }
                 }
             });
+            $(".create-course-instrutor-sign-in").click(function (event) {
+                event.preventDefault();
+                    window.location.href = '<?= home_url() ?>/profile/courses/owned/';
+            });
+            $('.regis-choose #inlineRadio2').removeAttr('checked');
+            $('.regis-choose #inlineRadio1').attr("checked", "checked");
         });
         </script>
 		
@@ -164,7 +170,7 @@ function closeNav() {
 			</header>
 			<!-- /header -->
 		<?php
-		if (!is_post_type_archive('lp_course') && !is_singular('lp_course') && !is_page('profile')) {
+		if (!is_post_type_archive('lp_course') && !is_singular('lp_course') && !is_page('profile') && !is_page('create-course') && !is_page('course-details')) {
 			echo '<div class="container">';
 		}
 		

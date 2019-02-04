@@ -66,7 +66,7 @@ $success = isset($_GET['success']) ? $_GET['success'] : false;
             ?>
         </div>
         <div class="col-md-5">
-            <h2>Top Rated Courses</h2>
+            <h2>Instructors Top Rated Courses</h2>
             <div class="bottom-line">
                 <hr/>
             </div>

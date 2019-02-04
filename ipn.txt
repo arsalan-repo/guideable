@@ -1,0 +1,45 @@
+Array
+(
+    [ipn] => 
+    [mc_gross] => 24.95
+    [outstanding_balance] => 0.00
+    [period_type] =>  Regular
+    [next_payment_date] => 02:00:00 Feb 05, 2019 PST
+    [protection_eligibility] => Eligible
+    [payment_cycle] => Daily
+    [tax] => 0.00
+    [payer_id] => SJZQG2C894WT8
+    [payment_date] => 03:25:14 Feb 04, 2019 PST
+    [payment_status] => Completed
+    [product_name] => Basic Subscription at Guideable
+    [charset] => windows-1252
+    [recurring_payment_id] => I-SS0M2N0WY9MC
+    [first_name] => Some
+    [mc_fee] => 1.02
+    [notify_version] => 3.9
+    [amount_per_cycle] => 24.95
+    [payer_status] => verified
+    [currency_code] => USD
+    [business] => guideable-merchant@gmail.com
+    [verify_sign] => AzYkUDI4d-pMZCuEpSyVEagB5uf3AM0Bn3IgcWEcCnB-FY6bMmuM3hY8
+    [payer_email] => guideable-test@gmail.com
+    [initial_payment_amount] => 24.95
+    [profile_status] => Active
+    [amount] => 24.95
+    [txn_id] => 1CJ03725N9294334E
+    [payment_type] => instant
+    [last_name] => One
+    [receiver_email] => guideable-merchant@gmail.com
+    [payment_fee] => 1.02
+    [receiver_id] => 7XZCFTUCJJHQA
+    [txn_type] => recurring_payment
+    [mc_currency] => USD
+    [residence_country] => US
+    [test_ipn] => 1
+    [transaction_subject] => Basic Subscription at Guideable
+    [payment_gross] => 24.95
+    [shipping] => 0.00
+    [product_type] => 1
+    [time_created] => 10:16:53 Oct 31, 2018 PDT
+    [ipn_track_id] => 9f44c30875823
+)

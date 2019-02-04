@@ -609,6 +609,15 @@ function popular_courses()
 		echo "";
 	} else {
 		echo '<div class="course-coursel-list" id="course-coursel-list"><div class="container">';
+		?>
+        <div class="search_courses">
+            <div class="container">
+                <h2>Search Courses</h2>
+                <hr/>
+                <?= get_search_form(); ?>
+            </div>
+        </div>
+        <?php
 		echo '<h2 class="pop">Popular Courses</h2>';
 		echo '<hr>';
 		echo do_shortcode( '[popular_course]' );

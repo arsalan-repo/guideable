@@ -3666,7 +3666,63 @@
   padding: 0 15px;
 }
 
+.search_courses h2{
+  font-size: 36px;
+  text-align: center;
+  font-weight: 100
+}
+
+.search_courses input.search-input {
+  float: left;
+  display: block;
+  width: 70%;
+  margin-right: 10px;
+  padding: .875rem .75rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.search_courses button.search-submit{
+  background: linear-gradient(to right, #f17325, #be308c);
+  color: #fff;
+  border-radius: 7px;
+  padding: 14px 29px !important;
+  border: none;
+  width: 25%;
+}
+
+.search_courses form{
+  width: 100%;
+  padding: 0 150px;
+}
+
+.search_courses{
+  margin: 0 0 50px 0;
+}
+
+
+
 @media(max-width: 768px){
+  .search_courses input.search-input {
+      width: 100%!important;
+    margin: 0 0 15px 0;
+  }
+
+  .search_courses button.search-submit{
+      text-align: center!important;
+      width: 100%;
+  }
+
+  .search_courses form{
+    padding: 0;
+  }
+
   .half {
     width: 100%!important;
     text-align: center;

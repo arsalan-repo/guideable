@@ -188,7 +188,7 @@ $current = $profile->get_current_tab();
                 <a href="http://124.47.158.69/how-to-create-manage-courses/" class="custom-button">The How-To Guide</a>
             </div>
             <div class="half">
-                <a href="http://124.47.158.69/wp-admin/edit.php?post_type=lp_course" class="custom-button">Create/Manage Courses</a>
+                <a href="http://124.47.158.69/create-course" class="custom-button">Create/Manage Courses</a>
             </div>
         </div>
     </div>

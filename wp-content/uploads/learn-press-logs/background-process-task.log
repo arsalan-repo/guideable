@@ -1,4 +1,4 @@
-----------10-29-2018 @ 07:57:14----------
+----------01-17-2019 @ 08:45:59----------
 Array
 (
     [callback] => query_related_themes
@@ -6,23 +6,23 @@ Array
 Array
 (
     [action] => lp_query_items
-    [nonce] => 36d88179c5
+    [nonce] => 721b46fc6d
     [0] => Array
         (
-            [callback] => query_free_addons
+            [callback] => query_premium_addons
         )
 
 )
 
 
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
+=> file      :/var/www/html/guideable/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
 => line      :115
 => function  :add
 => class     :LP_Debug
 -----------------------------------------
 
 
-----------10-29-2018 @ 07:57:11----------
+----------01-17-2019 @ 08:45:57----------
 Array
 (
     [callback] => query_premium_addons
@@ -30,23 +30,23 @@ Array
 Array
 (
     [action] => lp_query_items
-    [nonce] => 36d88179c5
+    [nonce] => 721b46fc6d
     [0] => Array
         (
-            [callback] => query_free_addons
+            [callback] => query_premium_addons
         )
 
 )
 
 
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
+=> file      :/var/www/html/guideable/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
 => line      :115
 => function  :add
 => class     :LP_Debug
 -----------------------------------------
 
 
-----------10-29-2018 @ 07:57:08----------
+----------01-17-2019 @ 08:45:55----------
 Array
 (
     [callback] => query_free_addons
@@ -54,616 +54,196 @@ Array
 Array
 (
     [action] => lp_query_items
-    [nonce] => 36d88179c5
+    [nonce] => 721b46fc6d
     [0] => Array
         (
-            [callback] => query_free_addons
+            [callback] => query_premium_addons
         )
 
 )
 
 
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
+=> file      :/var/www/html/guideable/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
 => line      :115
 => function  :add
 => class     :LP_Debug
 -----------------------------------------
 
 
-----------10-27-2018 @ 09:15:25----------
+----------12-21-2018 @ 09:52:31----------
+Array
+(
+    [callback] => query_premium_addons
+)
+Array
+(
+    [doing_wp_cron] => 1545385939.0411500930786132812500
+)
+
+
+=> file      :/var/www/html/guideable/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------12-21-2018 @ 09:52:24----------
+Array
+(
+    [callback] => query_free_addons
+)
+Array
+(
+    [doing_wp_cron] => 1545385939.0411500930786132812500
+)
+
+
+=> file      :/var/www/html/guideable/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------12-21-2018 @ 09:52:19----------
 Array
 (
     [callback] => query_related_themes
 )
 Array
 (
-    [action] => lp_query_items
-    [nonce] => 88b83db803
-    [0] => Array
-        (
-            [callback] => query_premium_addons
-        )
-
+    [doing_wp_cron] => 1545385939.0411500930786132812500
 )
 
 
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
+=> file      :/var/www/html/guideable/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
 => line      :115
 => function  :add
 => class     :LP_Debug
 -----------------------------------------
 
 
-----------10-27-2018 @ 09:15:23----------
+----------12-21-2018 @ 06:51:57----------
 Array
 (
-    [callback] => query_premium_addons
+    [callback] => query_related_themes
 )
 Array
 (
-    [action] => lp_query_items
-    [nonce] => 88b83db803
-    [0] => Array
-        (
-            [callback] => query_premium_addons
-        )
-
+    [doing_wp_cron] => 1545375117.3841729164123535156250
 )
 
 
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
+=> file      :/var/www/html/guideable/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
 => line      :115
 => function  :add
 => class     :LP_Debug
 -----------------------------------------
 
 
-----------10-27-2018 @ 09:15:20----------
+----------12-21-2018 @ 05:33:16----------
 Array
 (
-    [callback] => query_free_addons
+    [callback] => query_related_themes
 )
 Array
 (
-    [action] => lp_query_items
-    [nonce] => 88b83db803
-    [0] => Array
-        (
-            [callback] => query_premium_addons
-        )
-
+    [doing_wp_cron] => 1545370396.9045779705047607421875
 )
 
 
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
+=> file      :/var/www/html/guideable/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
 => line      :115
 => function  :add
 => class     :LP_Debug
 -----------------------------------------
 
 
-----------10-27-2018 @ 09:15:19----------
+----------12-21-2018 @ 04:17:22----------
 Array
 (
-    [check_tables] => yes
+    [callback] => query_related_themes
 )
 Array
 (
-    [action] => lp_lp_installer
-    [nonce] => 17d56dceb3
-    [0] => Array
-        (
-            [check_tables] => yes
-        )
-
+    [doing_wp_cron] => 1545365841.9988870620727539062500
 )
 
 
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
+=> file      :/var/www/html/guideable/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
 => line      :115
 => function  :add
 => class     :LP_Debug
 -----------------------------------------
 
 
-----------10-27-2018 @ 09:15:19----------
+----------12-21-2018 @ 02:35:48----------
 Array
 (
-    [check_tables] => yes
+    [callback] => query_related_themes
 )
 Array
 (
-    [action] => lp_lp_installer
-    [nonce] => 17d56dceb3
-    [0] => Array
-        (
-            [check_tables] => yes
-        )
-
+    [doing_wp_cron] => 1545359748.4220690727233886718750
 )
 
 
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
+=> file      :/var/www/html/guideable/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
 => line      :115
 => function  :add
 => class     :LP_Debug
 -----------------------------------------
 
 
-----------10-27-2018 @ 09:15:19----------
+----------12-21-2018 @ 01:30:24----------
 Array
 (
-    [check_tables] => yes
+    [callback] => query_related_themes
 )
 Array
 (
-    [action] => lp_lp_installer
-    [nonce] => 023991341c
-    [0] => Array
-        (
-            [check_tables] => yes
-        )
-
+    [doing_wp_cron] => 1545355824.1217188835144042968750
 )
 
 
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
+=> file      :/var/www/html/guideable/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
 => line      :115
 => function  :add
 => class     :LP_Debug
 -----------------------------------------
 
 
-----------10-27-2018 @ 09:15:19----------
+----------12-21-2018 @ 00:27:08----------
 Array
 (
-    [check_tables] => yes
+    [callback] => query_related_themes
 )
 Array
 (
-    [action] => lp_lp_installer
-    [nonce] => 023991341c
-    [0] => Array
-        (
-            [check_tables] => yes
-        )
-
+    [doing_wp_cron] => 1545352028.5207130908966064453125
 )
 
 
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
+=> file      :/var/www/html/guideable/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
 => line      :115
 => function  :add
 => class     :LP_Debug
 -----------------------------------------
 
 
-----------10-27-2018 @ 09:15:19----------
+----------12-20-2018 @ 22:07:12----------
 Array
 (
-    [check_tables] => yes
+    [callback] => query_related_themes
 )
 Array
 (
-    [action] => lp_lp_installer
-    [nonce] => 17d56dceb3
-    [0] => Array
-        (
-            [check_tables] => yes
-        )
-
+    [doing_wp_cron] => 1545343632.5116069316864013671875
 )
 
 
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
-=> line      :115
-=> function  :add
-=> class     :LP_Debug
------------------------------------------
-
-
-----------10-27-2018 @ 09:15:19----------
-Array
-(
-    [check_tables] => yes
-)
-Array
-(
-    [action] => lp_lp_installer
-    [nonce] => 023991341c
-    [0] => Array
-        (
-            [check_tables] => yes
-        )
-
-)
-
-
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
-=> line      :115
-=> function  :add
-=> class     :LP_Debug
------------------------------------------
-
-
-----------10-27-2018 @ 09:15:19----------
-Array
-(
-    [check_tables] => yes
-)
-Array
-(
-    [action] => lp_lp_installer
-    [nonce] => 023991341c
-    [0] => Array
-        (
-            [check_tables] => yes
-        )
-
-)
-
-
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
-=> line      :115
-=> function  :add
-=> class     :LP_Debug
------------------------------------------
-
-
-----------10-27-2018 @ 09:15:19----------
-Array
-(
-    [check_tables] => yes
-)
-Array
-(
-    [action] => lp_lp_installer
-    [nonce] => 023991341c
-    [0] => Array
-        (
-            [check_tables] => yes
-        )
-
-)
-
-
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
-=> line      :115
-=> function  :add
-=> class     :LP_Debug
------------------------------------------
-
-
-----------10-27-2018 @ 09:15:19----------
-Array
-(
-    [check_tables] => yes
-)
-Array
-(
-    [action] => lp_lp_installer
-    [nonce] => 023991341c
-    [0] => Array
-        (
-            [check_tables] => yes
-        )
-
-)
-
-
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
-=> line      :115
-=> function  :add
-=> class     :LP_Debug
------------------------------------------
-
-
-----------10-27-2018 @ 09:15:19----------
-Array
-(
-    [check_tables] => yes
-)
-Array
-(
-    [action] => lp_lp_installer
-    [nonce] => 17d56dceb3
-    [0] => Array
-        (
-            [check_tables] => yes
-        )
-
-)
-
-
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
-=> line      :115
-=> function  :add
-=> class     :LP_Debug
------------------------------------------
-
-
-----------10-27-2018 @ 09:15:19----------
-Array
-(
-    [check_tables] => yes
-)
-Array
-(
-    [action] => lp_lp_installer
-    [nonce] => 023991341c
-    [0] => Array
-        (
-            [check_tables] => yes
-        )
-
-)
-
-
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
-=> line      :115
-=> function  :add
-=> class     :LP_Debug
------------------------------------------
-
-
-----------10-27-2018 @ 09:15:19----------
-Array
-(
-    [check_tables] => yes
-)
-Array
-(
-    [action] => lp_lp_installer
-    [nonce] => 023991341c
-    [0] => Array
-        (
-            [check_tables] => yes
-        )
-
-)
-
-
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
-=> line      :115
-=> function  :add
-=> class     :LP_Debug
------------------------------------------
-
-
-----------10-27-2018 @ 09:15:19----------
-Array
-(
-    [check_tables] => yes
-)
-Array
-(
-    [action] => lp_lp_installer
-    [nonce] => 17d56dceb3
-    [0] => Array
-        (
-            [check_tables] => yes
-        )
-
-)
-
-
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
-=> line      :115
-=> function  :add
-=> class     :LP_Debug
------------------------------------------
-
-
-----------10-27-2018 @ 09:15:19----------
-Array
-(
-    [check_tables] => yes
-)
-Array
-(
-    [action] => lp_lp_installer
-    [nonce] => 023991341c
-    [0] => Array
-        (
-            [check_tables] => yes
-        )
-
-)
-
-
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
-=> line      :115
-=> function  :add
-=> class     :LP_Debug
------------------------------------------
-
-
-----------10-27-2018 @ 09:15:19----------
-Array
-(
-    [check_tables] => yes
-)
-Array
-(
-    [action] => lp_lp_installer
-    [nonce] => 023991341c
-    [0] => Array
-        (
-            [check_tables] => yes
-        )
-
-)
-
-
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
-=> line      :115
-=> function  :add
-=> class     :LP_Debug
------------------------------------------
-
-
-----------10-27-2018 @ 09:15:19----------
-Array
-(
-    [check_tables] => yes
-)
-Array
-(
-    [action] => lp_lp_installer
-    [nonce] => 17d56dceb3
-    [0] => Array
-        (
-            [check_tables] => yes
-        )
-
-)
-
-
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
-=> line      :115
-=> function  :add
-=> class     :LP_Debug
------------------------------------------
-
-
-----------10-27-2018 @ 09:15:19----------
-Array
-(
-    [check_tables] => yes
-)
-Array
-(
-    [action] => lp_lp_installer
-    [nonce] => 023991341c
-    [0] => Array
-        (
-            [check_tables] => yes
-        )
-
-)
-
-
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
-=> line      :115
-=> function  :add
-=> class     :LP_Debug
------------------------------------------
-
-
-----------10-27-2018 @ 09:15:19----------
-Array
-(
-    [check_tables] => yes
-)
-Array
-(
-    [action] => lp_lp_installer
-    [nonce] => 023991341c
-    [0] => Array
-        (
-            [check_tables] => yes
-        )
-
-)
-
-
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
-=> line      :115
-=> function  :add
-=> class     :LP_Debug
------------------------------------------
-
-
-----------10-27-2018 @ 09:15:19----------
-Array
-(
-    [check_tables] => yes
-)
-Array
-(
-    [action] => lp_lp_installer
-    [nonce] => 023991341c
-    [0] => Array
-        (
-            [check_tables] => yes
-        )
-
-)
-
-
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
-=> line      :115
-=> function  :add
-=> class     :LP_Debug
------------------------------------------
-
-
-----------10-27-2018 @ 09:15:19----------
-Array
-(
-    [check_tables] => yes
-)
-Array
-(
-    [action] => lp_lp_installer
-    [nonce] => 023991341c
-    [0] => Array
-        (
-            [check_tables] => yes
-        )
-
-)
-
-
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
-=> line      :115
-=> function  :add
-=> class     :LP_Debug
------------------------------------------
-
-
-----------10-27-2018 @ 09:15:19----------
-Array
-(
-    [check_tables] => yes
-)
-Array
-(
-    [action] => lp_lp_installer
-    [nonce] => 17d56dceb3
-    [0] => Array
-        (
-            [check_tables] => yes
-        )
-
-)
-
-
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
-=> line      :115
-=> function  :add
-=> class     :LP_Debug
------------------------------------------
-
-
-----------10-27-2018 @ 09:15:19----------
-Array
-(
-    [check_tables] => yes
-)
-Array
-(
-    [action] => lp_lp_installer
-    [nonce] => 023991341c
-    [0] => Array
-        (
-            [check_tables] => yes
-        )
-
-)
-
-
-=> file      :C:\xampp\htdocs\test\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
+=> file      :/var/www/html/guideable/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
 => line      :115
 => function  :add
 => class     :LP_Debug

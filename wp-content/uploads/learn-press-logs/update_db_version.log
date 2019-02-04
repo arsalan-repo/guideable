@@ -1,3 +1,1002 @@
+----------11-06-2018 @ 15:24:28----------
+Array
+(
+    [0] => Array
+        (
+            [file] => /var/www/html/guideable/wp-content/plugins/learnpress/inc/class-lp-install.php
+            [line] => 173
+            [function] => update_db_version
+            [class] => LP_Install
+            [type] => ::
+            [args] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /var/www/html/guideable/wp-includes/class-wp-hook.php
+            [line] => 286
+            [function] => install
+            [class] => LP_Install
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => 
+                )
+
+        )
+
+    [2] => Array
+        (
+            [file] => /var/www/html/guideable/wp-includes/class-wp-hook.php
+            [line] => 310
+            [function] => apply_filters
+            [class] => WP_Hook
+            [object] => WP_Hook Object
+                (
+                    [callbacks] => Array
+                        (
+                            [10] => Array
+                                (
+                                    [00000000403970c20000000037e7f301on_activate] => Array
+                                        (
+                                            [function] => Array
+                                                (
+                                                    [0] => LearnPress Object
+                                                        (
+                                                            [version] => 3.1.0.1
+                                                            [session] => 
+                                                            [profile] => 
+                                                            [cart] => 
+                                                            [settings] => 
+                                                            [schedule] => 
+                                                            [query_vars] => Array
+                                                                (
+                                                                )
+
+                                                            [_table_prefixes:protected] => Array
+                                                                (
+                                                                    [tbl_sessions] => wp_learnpress_sessions
+                                                                    [tbl_sections] => wp_learnpress_sections
+                                                                    [tbl_section_items] => wp_learnpress_section_items
+                                                                    [tbl_user_items] => wp_learnpress_user_items
+                                                                    [tbl_user_itemmeta] => wp_learnpress_user_itemmeta
+                                                                    [tbl_order_items] => wp_learnpress_order_items
+                                                                    [tbl_order_itemmeta] => wp_learnpress_order_itemmeta
+                                                                    [tbl_quiz_questions] => wp_learnpress_quiz_questions
+                                                                    [tbl_question_answers] => wp_learnpress_question_answers
+                                                                    [tbl_question_answermeta] => wp_learnpress_question_answermeta
+                                                                    [tbl_review_logs] => wp_learnpress_review_logs
+                                                                )
+
+                                                            [query] => LP_Query Object
+                                                                (
+                                                                    [query_vars] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [global] => Array
+                                                                (
+                                                                )
+
+                                                            [backgrounds] => Array
+                                                                (
+                                                                )
+
+                                                        )
+
+                                                    [1] => on_activate
+                                                )
+
+                                            [accepted_args] => 1
+                                        )
+
+                                    [LP_Install::install] => Array
+                                        (
+                                            [function] => Array
+                                                (
+                                                    [0] => LP_Install
+                                                    [1] => install
+                                                )
+
+                                            [accepted_args] => 1
+                                        )
+
+                                )
+
+                        )
+
+                    [iterations:WP_Hook:private] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 10
+                                )
+
+                        )
+
+                    [current_priority:WP_Hook:private] => Array
+                        (
+                            [0] => 10
+                        )
+
+                    [nesting_level:WP_Hook:private] => 1
+                    [doing_action:WP_Hook:private] => 1
+                )
+
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => 
+                    [1] => Array
+                        (
+                            [0] => 
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [file] => /var/www/html/guideable/wp-includes/plugin.php
+            [line] => 453
+            [function] => do_action
+            [class] => WP_Hook
+            [object] => WP_Hook Object
+                (
+                    [callbacks] => Array
+                        (
+                            [10] => Array
+                                (
+                                    [00000000403970c20000000037e7f301on_activate] => Array
+                                        (
+                                            [function] => Array
+                                                (
+                                                    [0] => LearnPress Object
+                                                        (
+                                                            [version] => 3.1.0.1
+                                                            [session] => 
+                                                            [profile] => 
+                                                            [cart] => 
+                                                            [settings] => 
+                                                            [schedule] => 
+                                                            [query_vars] => Array
+                                                                (
+                                                                )
+
+                                                            [_table_prefixes:protected] => Array
+                                                                (
+                                                                    [tbl_sessions] => wp_learnpress_sessions
+                                                                    [tbl_sections] => wp_learnpress_sections
+                                                                    [tbl_section_items] => wp_learnpress_section_items
+                                                                    [tbl_user_items] => wp_learnpress_user_items
+                                                                    [tbl_user_itemmeta] => wp_learnpress_user_itemmeta
+                                                                    [tbl_order_items] => wp_learnpress_order_items
+                                                                    [tbl_order_itemmeta] => wp_learnpress_order_itemmeta
+                                                                    [tbl_quiz_questions] => wp_learnpress_quiz_questions
+                                                                    [tbl_question_answers] => wp_learnpress_question_answers
+                                                                    [tbl_question_answermeta] => wp_learnpress_question_answermeta
+                                                                    [tbl_review_logs] => wp_learnpress_review_logs
+                                                                )
+
+                                                            [query] => LP_Query Object
+                                                                (
+                                                                    [query_vars] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [global] => Array
+                                                                (
+                                                                )
+
+                                                            [backgrounds] => Array
+                                                                (
+                                                                )
+
+                                                        )
+
+                                                    [1] => on_activate
+                                                )
+
+                                            [accepted_args] => 1
+                                        )
+
+                                    [LP_Install::install] => Array
+                                        (
+                                            [function] => Array
+                                                (
+                                                    [0] => LP_Install
+                                                    [1] => install
+                                                )
+
+                                            [accepted_args] => 1
+                                        )
+
+                                )
+
+                        )
+
+                    [iterations:WP_Hook:private] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 10
+                                )
+
+                        )
+
+                    [current_priority:WP_Hook:private] => Array
+                        (
+                            [0] => 10
+                        )
+
+                    [nesting_level:WP_Hook:private] => 1
+                    [doing_action:WP_Hook:private] => 1
+                )
+
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => 
+                        )
+
+                )
+
+        )
+
+    [4] => Array
+        (
+            [file] => /var/www/html/guideable/wp-admin/includes/plugin.php
+            [line] => 586
+            [function] => do_action
+            [args] => Array
+                (
+                    [0] => activate_learnpress/learnpress.php
+                    [1] => 
+                )
+
+        )
+
+    [5] => Array
+        (
+            [file] => /var/www/html/guideable/wp-admin/includes/plugin.php
+            [line] => 747
+            [function] => activate_plugin
+            [args] => Array
+                (
+                    [0] => learnpress/learnpress.php
+                    [1] => http://124.47.158.69/wp-admin/plugins.php?error=true&plugin=learnpress/learnpress.php
+                    [2] => 
+                    [3] => 
+                )
+
+        )
+
+    [6] => Array
+        (
+            [file] => /var/www/html/guideable/wp-admin/plugins.php
+            [line] => 112
+            [function] => activate_plugins
+            [args] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => advanced-custom-fields/acf.php
+                            [1] => instructor_subscriptions/instructor-subscriptions.php
+                            [2] => learnpress/learnpress.php
+                            [3] => learnpress-course-review/learnpress-course-review.php
+                            [4] => nextend-facebook-connect/nextend-facebook-connect.php
+                            [5] => paid-memberships-pro/paid-memberships-pro.php
+                            [6] => pmpro-register-helper/pmpro-register-helper.php
+                            [7] => js_composer/js_composer.php
+                        )
+
+                    [1] => http://124.47.158.69/wp-admin/plugins.php?error=true&plugin=learnpress/learnpress.php
+                    [2] => 
+                )
+
+        )
+
+)
+
+
+=> file      :/var/www/html/guideable/wp-content/plugins/learnpress/inc/class-lp-install.php
+=> line      :712
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------11-06-2018 @ 15:24:28----------
+Array
+(
+    [0] => Array
+        (
+            [file] => /var/www/html/guideable/wp-content/plugins/learnpress/inc/class-lp-install.php
+            [line] => 173
+            [function] => update_db_version
+            [class] => LP_Install
+            [type] => ::
+            [args] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /var/www/html/guideable/wp-includes/class-wp-hook.php
+            [line] => 286
+            [function] => install
+            [class] => LP_Install
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => LearnPress Object
+                        (
+                            [version] => 3.1.0.1
+                            [session] => 
+                            [profile] => 
+                            [cart] => 
+                            [settings] => 
+                            [schedule] => 
+                            [query_vars] => Array
+                                (
+                                )
+
+                            [_table_prefixes:protected] => Array
+                                (
+                                    [tbl_sessions] => wp_learnpress_sessions
+                                    [tbl_sections] => wp_learnpress_sections
+                                    [tbl_section_items] => wp_learnpress_section_items
+                                    [tbl_user_items] => wp_learnpress_user_items
+                                    [tbl_user_itemmeta] => wp_learnpress_user_itemmeta
+                                    [tbl_order_items] => wp_learnpress_order_items
+                                    [tbl_order_itemmeta] => wp_learnpress_order_itemmeta
+                                    [tbl_quiz_questions] => wp_learnpress_quiz_questions
+                                    [tbl_question_answers] => wp_learnpress_question_answers
+                                    [tbl_question_answermeta] => wp_learnpress_question_answermeta
+                                    [tbl_review_logs] => wp_learnpress_review_logs
+                                )
+
+                            [query] => LP_Query Object
+                                (
+                                    [query_vars] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [global] => Array
+                                (
+                                )
+
+                            [backgrounds] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [file] => /var/www/html/guideable/wp-includes/class-wp-hook.php
+            [line] => 310
+            [function] => apply_filters
+            [class] => WP_Hook
+            [object] => WP_Hook Object
+                (
+                    [callbacks] => Array
+                        (
+                            [10] => Array
+                                (
+                                    [LP_Install::install] => Array
+                                        (
+                                            [function] => Array
+                                                (
+                                                    [0] => LP_Install
+                                                    [1] => install
+                                                )
+
+                                            [accepted_args] => 1
+                                        )
+
+                                )
+
+                        )
+
+                    [iterations:WP_Hook:private] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 10
+                                )
+
+                        )
+
+                    [current_priority:WP_Hook:private] => Array
+                        (
+                            [0] => 10
+                        )
+
+                    [nesting_level:WP_Hook:private] => 1
+                    [doing_action:WP_Hook:private] => 1
+                )
+
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => 
+                    [1] => Array
+                        (
+                            [0] => LearnPress Object
+                                (
+                                    [version] => 3.1.0.1
+                                    [session] => 
+                                    [profile] => 
+                                    [cart] => 
+                                    [settings] => 
+                                    [schedule] => 
+                                    [query_vars] => Array
+                                        (
+                                        )
+
+                                    [_table_prefixes:protected] => Array
+                                        (
+                                            [tbl_sessions] => wp_learnpress_sessions
+                                            [tbl_sections] => wp_learnpress_sections
+                                            [tbl_section_items] => wp_learnpress_section_items
+                                            [tbl_user_items] => wp_learnpress_user_items
+                                            [tbl_user_itemmeta] => wp_learnpress_user_itemmeta
+                                            [tbl_order_items] => wp_learnpress_order_items
+                                            [tbl_order_itemmeta] => wp_learnpress_order_itemmeta
+                                            [tbl_quiz_questions] => wp_learnpress_quiz_questions
+                                            [tbl_question_answers] => wp_learnpress_question_answers
+                                            [tbl_question_answermeta] => wp_learnpress_question_answermeta
+                                            [tbl_review_logs] => wp_learnpress_review_logs
+                                        )
+
+                                    [query] => LP_Query Object
+                                        (
+                                            [query_vars] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [global] => Array
+                                        (
+                                        )
+
+                                    [backgrounds] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [file] => /var/www/html/guideable/wp-includes/plugin.php
+            [line] => 453
+            [function] => do_action
+            [class] => WP_Hook
+            [object] => WP_Hook Object
+                (
+                    [callbacks] => Array
+                        (
+                            [10] => Array
+                                (
+                                    [LP_Install::install] => Array
+                                        (
+                                            [function] => Array
+                                                (
+                                                    [0] => LP_Install
+                                                    [1] => install
+                                                )
+
+                                            [accepted_args] => 1
+                                        )
+
+                                )
+
+                        )
+
+                    [iterations:WP_Hook:private] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 10
+                                )
+
+                        )
+
+                    [current_priority:WP_Hook:private] => Array
+                        (
+                            [0] => 10
+                        )
+
+                    [nesting_level:WP_Hook:private] => 1
+                    [doing_action:WP_Hook:private] => 1
+                )
+
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => LearnPress Object
+                                (
+                                    [version] => 3.1.0.1
+                                    [session] => 
+                                    [profile] => 
+                                    [cart] => 
+                                    [settings] => 
+                                    [schedule] => 
+                                    [query_vars] => Array
+                                        (
+                                        )
+
+                                    [_table_prefixes:protected] => Array
+                                        (
+                                            [tbl_sessions] => wp_learnpress_sessions
+                                            [tbl_sections] => wp_learnpress_sections
+                                            [tbl_section_items] => wp_learnpress_section_items
+                                            [tbl_user_items] => wp_learnpress_user_items
+                                            [tbl_user_itemmeta] => wp_learnpress_user_itemmeta
+                                            [tbl_order_items] => wp_learnpress_order_items
+                                            [tbl_order_itemmeta] => wp_learnpress_order_itemmeta
+                                            [tbl_quiz_questions] => wp_learnpress_quiz_questions
+                                            [tbl_question_answers] => wp_learnpress_question_answers
+                                            [tbl_question_answermeta] => wp_learnpress_question_answermeta
+                                            [tbl_review_logs] => wp_learnpress_review_logs
+                                        )
+
+                                    [query] => LP_Query Object
+                                        (
+                                            [query_vars] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [global] => Array
+                                        (
+                                        )
+
+                                    [backgrounds] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [4] => Array
+        (
+            [file] => /var/www/html/guideable/wp-content/plugins/learnpress/learnpress.php
+            [line] => 419
+            [function] => do_action
+            [args] => Array
+                (
+                    [0] => learn-press/activate
+                    [1] => LearnPress Object
+                        (
+                            [version] => 3.1.0.1
+                            [session] => 
+                            [profile] => 
+                            [cart] => 
+                            [settings] => 
+                            [schedule] => 
+                            [query_vars] => Array
+                                (
+                                )
+
+                            [_table_prefixes:protected] => Array
+                                (
+                                    [tbl_sessions] => wp_learnpress_sessions
+                                    [tbl_sections] => wp_learnpress_sections
+                                    [tbl_section_items] => wp_learnpress_section_items
+                                    [tbl_user_items] => wp_learnpress_user_items
+                                    [tbl_user_itemmeta] => wp_learnpress_user_itemmeta
+                                    [tbl_order_items] => wp_learnpress_order_items
+                                    [tbl_order_itemmeta] => wp_learnpress_order_itemmeta
+                                    [tbl_quiz_questions] => wp_learnpress_quiz_questions
+                                    [tbl_question_answers] => wp_learnpress_question_answers
+                                    [tbl_question_answermeta] => wp_learnpress_question_answermeta
+                                    [tbl_review_logs] => wp_learnpress_review_logs
+                                )
+
+                            [query] => LP_Query Object
+                                (
+                                    [query_vars] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [global] => Array
+                                (
+                                )
+
+                            [backgrounds] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [5] => Array
+        (
+            [file] => /var/www/html/guideable/wp-includes/class-wp-hook.php
+            [line] => 286
+            [function] => on_activate
+            [class] => LearnPress
+            [object] => LearnPress Object
+                (
+                    [version] => 3.1.0.1
+                    [session] => 
+                    [profile] => 
+                    [cart] => 
+                    [settings] => 
+                    [schedule] => 
+                    [query_vars] => Array
+                        (
+                        )
+
+                    [_table_prefixes:protected] => Array
+                        (
+                            [tbl_sessions] => wp_learnpress_sessions
+                            [tbl_sections] => wp_learnpress_sections
+                            [tbl_section_items] => wp_learnpress_section_items
+                            [tbl_user_items] => wp_learnpress_user_items
+                            [tbl_user_itemmeta] => wp_learnpress_user_itemmeta
+                            [tbl_order_items] => wp_learnpress_order_items
+                            [tbl_order_itemmeta] => wp_learnpress_order_itemmeta
+                            [tbl_quiz_questions] => wp_learnpress_quiz_questions
+                            [tbl_question_answers] => wp_learnpress_question_answers
+                            [tbl_question_answermeta] => wp_learnpress_question_answermeta
+                            [tbl_review_logs] => wp_learnpress_review_logs
+                        )
+
+                    [query] => LP_Query Object
+                        (
+                            [query_vars] => Array
+                                (
+                                )
+
+                        )
+
+                    [global] => Array
+                        (
+                        )
+
+                    [backgrounds] => Array
+                        (
+                        )
+
+                )
+
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => 
+                )
+
+        )
+
+    [6] => Array
+        (
+            [file] => /var/www/html/guideable/wp-includes/class-wp-hook.php
+            [line] => 310
+            [function] => apply_filters
+            [class] => WP_Hook
+            [object] => WP_Hook Object
+                (
+                    [callbacks] => Array
+                        (
+                            [10] => Array
+                                (
+                                    [00000000403970c20000000037e7f301on_activate] => Array
+                                        (
+                                            [function] => Array
+                                                (
+                                                    [0] => LearnPress Object
+                                                        (
+                                                            [version] => 3.1.0.1
+                                                            [session] => 
+                                                            [profile] => 
+                                                            [cart] => 
+                                                            [settings] => 
+                                                            [schedule] => 
+                                                            [query_vars] => Array
+                                                                (
+                                                                )
+
+                                                            [_table_prefixes:protected] => Array
+                                                                (
+                                                                    [tbl_sessions] => wp_learnpress_sessions
+                                                                    [tbl_sections] => wp_learnpress_sections
+                                                                    [tbl_section_items] => wp_learnpress_section_items
+                                                                    [tbl_user_items] => wp_learnpress_user_items
+                                                                    [tbl_user_itemmeta] => wp_learnpress_user_itemmeta
+                                                                    [tbl_order_items] => wp_learnpress_order_items
+                                                                    [tbl_order_itemmeta] => wp_learnpress_order_itemmeta
+                                                                    [tbl_quiz_questions] => wp_learnpress_quiz_questions
+                                                                    [tbl_question_answers] => wp_learnpress_question_answers
+                                                                    [tbl_question_answermeta] => wp_learnpress_question_answermeta
+                                                                    [tbl_review_logs] => wp_learnpress_review_logs
+                                                                )
+
+                                                            [query] => LP_Query Object
+                                                                (
+                                                                    [query_vars] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [global] => Array
+                                                                (
+                                                                )
+
+                                                            [backgrounds] => Array
+                                                                (
+                                                                )
+
+                                                        )
+
+                                                    [1] => on_activate
+                                                )
+
+                                            [accepted_args] => 1
+                                        )
+
+                                    [LP_Install::install] => Array
+                                        (
+                                            [function] => Array
+                                                (
+                                                    [0] => LP_Install
+                                                    [1] => install
+                                                )
+
+                                            [accepted_args] => 1
+                                        )
+
+                                )
+
+                        )
+
+                    [iterations:WP_Hook:private] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 10
+                                )
+
+                        )
+
+                    [current_priority:WP_Hook:private] => Array
+                        (
+                            [0] => 10
+                        )
+
+                    [nesting_level:WP_Hook:private] => 1
+                    [doing_action:WP_Hook:private] => 1
+                )
+
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => 
+                    [1] => Array
+                        (
+                            [0] => 
+                        )
+
+                )
+
+        )
+
+    [7] => Array
+        (
+            [file] => /var/www/html/guideable/wp-includes/plugin.php
+            [line] => 453
+            [function] => do_action
+            [class] => WP_Hook
+            [object] => WP_Hook Object
+                (
+                    [callbacks] => Array
+                        (
+                            [10] => Array
+                                (
+                                    [00000000403970c20000000037e7f301on_activate] => Array
+                                        (
+                                            [function] => Array
+                                                (
+                                                    [0] => LearnPress Object
+                                                        (
+                                                            [version] => 3.1.0.1
+                                                            [session] => 
+                                                            [profile] => 
+                                                            [cart] => 
+                                                            [settings] => 
+                                                            [schedule] => 
+                                                            [query_vars] => Array
+                                                                (
+                                                                )
+
+                                                            [_table_prefixes:protected] => Array
+                                                                (
+                                                                    [tbl_sessions] => wp_learnpress_sessions
+                                                                    [tbl_sections] => wp_learnpress_sections
+                                                                    [tbl_section_items] => wp_learnpress_section_items
+                                                                    [tbl_user_items] => wp_learnpress_user_items
+                                                                    [tbl_user_itemmeta] => wp_learnpress_user_itemmeta
+                                                                    [tbl_order_items] => wp_learnpress_order_items
+                                                                    [tbl_order_itemmeta] => wp_learnpress_order_itemmeta
+                                                                    [tbl_quiz_questions] => wp_learnpress_quiz_questions
+                                                                    [tbl_question_answers] => wp_learnpress_question_answers
+                                                                    [tbl_question_answermeta] => wp_learnpress_question_answermeta
+                                                                    [tbl_review_logs] => wp_learnpress_review_logs
+                                                                )
+
+                                                            [query] => LP_Query Object
+                                                                (
+                                                                    [query_vars] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [global] => Array
+                                                                (
+                                                                )
+
+                                                            [backgrounds] => Array
+                                                                (
+                                                                )
+
+                                                        )
+
+                                                    [1] => on_activate
+                                                )
+
+                                            [accepted_args] => 1
+                                        )
+
+                                    [LP_Install::install] => Array
+                                        (
+                                            [function] => Array
+                                                (
+                                                    [0] => LP_Install
+                                                    [1] => install
+                                                )
+
+                                            [accepted_args] => 1
+                                        )
+
+                                )
+
+                        )
+
+                    [iterations:WP_Hook:private] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 10
+                                )
+
+                        )
+
+                    [current_priority:WP_Hook:private] => Array
+                        (
+                            [0] => 10
+                        )
+
+                    [nesting_level:WP_Hook:private] => 1
+                    [doing_action:WP_Hook:private] => 1
+                )
+
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => 
+                        )
+
+                )
+
+        )
+
+    [8] => Array
+        (
+            [file] => /var/www/html/guideable/wp-admin/includes/plugin.php
+            [line] => 586
+            [function] => do_action
+            [args] => Array
+                (
+                    [0] => activate_learnpress/learnpress.php
+                    [1] => 
+                )
+
+        )
+
+    [9] => Array
+        (
+            [file] => /var/www/html/guideable/wp-admin/includes/plugin.php
+            [line] => 747
+            [function] => activate_plugin
+            [args] => Array
+                (
+                    [0] => learnpress/learnpress.php
+                    [1] => http://124.47.158.69/wp-admin/plugins.php?error=true&plugin=learnpress/learnpress.php
+                    [2] => 
+                    [3] => 
+                )
+
+        )
+
+    [10] => Array
+        (
+            [file] => /var/www/html/guideable/wp-admin/plugins.php
+            [line] => 112
+            [function] => activate_plugins
+            [args] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => advanced-custom-fields/acf.php
+                            [1] => instructor_subscriptions/instructor-subscriptions.php
+                            [2] => learnpress/learnpress.php
+                            [3] => learnpress-course-review/learnpress-course-review.php
+                            [4] => nextend-facebook-connect/nextend-facebook-connect.php
+                            [5] => paid-memberships-pro/paid-memberships-pro.php
+                            [6] => pmpro-register-helper/pmpro-register-helper.php
+                            [7] => js_composer/js_composer.php
+                        )
+
+                    [1] => http://124.47.158.69/wp-admin/plugins.php?error=true&plugin=learnpress/learnpress.php
+                    [2] => 
+                )
+
+        )
+
+)
+
+
+=> file      :/var/www/html/guideable/wp-content/plugins/learnpress/inc/class-lp-install.php
+=> line      :712
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
 ----------10-27-2018 @ 09:15:11----------
 Array
 (
